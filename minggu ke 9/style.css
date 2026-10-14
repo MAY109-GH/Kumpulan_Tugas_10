@@ -1,20 +1,44 @@
-.box{
-    background-color:palevioletred
-    ;
-    width: 100px;
-    height: 100px;
+body{
+    background-color:rgb(5, 37, 65)
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 300px;
+    gap: 24px;
+
 
 }
 
-.container{
-    display:flex;
-    flex-direction:row;
-    justify-content; center;
-    gap: 20px;
+
+.box{
+    width: 250px;
+    height: 250px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px;
 
 
-
-    
-
-    
+}
+#box1{
+    background-color:yellow
+}
+#box2{
+    background-color:chocolate
+}
+#box3{
+    background-color:lightblue
+}
+img{
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p{
+background-color: rgb(11, 29, 68);
 }
