@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Styling untuk Navbar di Bawah */
+.navbar-bawah {
+    position: fixed;   /* Membuat posisi navbar terkunci */
+    bottom: 0;         /* Meletakkannya tepat di dasar layar */
+    left: 0;
+    width: 100%;       /* Lebar penuh layar */
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around; /* Menyebar menu secara merata */
+    align-items: center;
+    height: 55px;
+    z-index: 1000;     /* Agar selalu tampil di atas elemen lain */
+}
+
+.navbar-bawah a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar-bawah a:hover {
+    background-color: #555555;
+    border-radius: 4px;
+}
+
+/* Beri jarak pada konten utama agar tidak tertutup navbar */
+.konten {
+    padding: 20px;
+    margin-bottom: 70px; 
+}
+
+
+.hasatuu[
+    text-align: center; /* Membuat teks di tengah */
+            margin-top: 50px;   /* Memberi jarak atas agar lebih rapi */
+            font-family: Arial, sans-serif; /* Mengubah font agar bersih */
+]
+
+.galeri-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.galeri-item{
+    flex: 1 1 250px;
+    max-width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.galeri-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3 ease;
+    
+
+}
+
+.galeri-item img:hover{
+    transform: scale(1.05);
+}
